@@ -12,6 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Restart webserver
+        run: sudo systemctl restart wincfarm
+
       - name: Run a one-line script
         run: echo Hello, world!
 
