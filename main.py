@@ -24,6 +24,11 @@ def cat():
     return simple_html('Meow!')
 
 
+@app.route('/dog')
+def dog():
+    return simple_html('Meow!')
+
+
 if __name__ == "__main__":
     #    app.run(host='0.0.0.0')
     app.run()
