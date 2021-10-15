@@ -16,12 +16,12 @@ def index():
 
 @app.route('/cow')
 def cow():
-    return simple_html('Meow!')
+    return simple_html('Moo!')
 
 
 @app.route('/cat')
 def cat():
-    return simple_html('Woof!')
+    return simple_html('Meow!')
 
 
 if __name__ == "__main__":
