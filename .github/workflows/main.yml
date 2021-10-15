@@ -24,7 +24,7 @@ jobs:
 
 
   build:
-    needs: run-test
+    needs: run-tests
     runs-on: self-hosted
     environment: wincfarm
 
