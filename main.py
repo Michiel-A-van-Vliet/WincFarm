@@ -26,7 +26,7 @@ def cat():
 
 @app.route('/dog')
 def dog():
-    return simple_html('Meow!')
+    return simple_html('Woof!')
 
 
 if __name__ == "__main__":
